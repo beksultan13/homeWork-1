@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul, li {
+    color: #fff;
+}
+.container {
+    max-width: 1470px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+.header__inner {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.nav__link {
+    text-decoration: none;
+    color: #000;
+}
+main{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.title-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.700)), url("https://foni.club/uploads/posts/2023-02/1677074507_foni-club-p-oboi-semya-na-noutbuk-29.jpg") center no-repeat;
+}
+.title-block__inner {
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.page-title {
+    color: #f2f2f2;
+    text-align: left;
+    font-size: 34px;
+}
+.page-title-color {
+    color: #c01817;
+}
+.section-titles {
+    font-size: 34px;
+    color: #000;
+}
+.about__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#list-block {
+    background-color: #333;
+    padding: 20px 0;
+}
+.white-title {
+    color: #fff;
+}
+.list-block__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.list {
+    padding: 0 15px;
+    display: flex;
+    gap: 120px;
+}
+.products-table {
+    margin: 40px 0;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+.products-table tr td {
+    padding: 20px;
+    border: 1px solid #333; 
+}
+.table-price {
+    font-size: 22px;
+}
+.table-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #c01817;
+    padding: 8px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+footer {
+    background-color: #c01817;
+    padding: 30px 0;
+}
+.footer__inner-content {
+    display: flex;
+}
+.input-block {
+    margin: 20px 0;
+}
+.input-text {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.form-input {
+    border: none;
+    padding: 8px 12px;
+}
+.form-button {
+    margin-top: 12px;
+    color: #c01817;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: none;
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
